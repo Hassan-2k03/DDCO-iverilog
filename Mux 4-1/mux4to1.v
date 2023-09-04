@@ -4,4 +4,3 @@ module mux4 (input wire [0:3] i, input wire j1, j0, output wire o);
     mux2 mux2_1 (i[2], i[3], j0, t1);
     mux2 mux2_2 (t0, t1, j1, o);
 endmodule
-
