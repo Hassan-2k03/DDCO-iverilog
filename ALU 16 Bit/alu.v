@@ -39,3 +39,6 @@ module alu (input wire [1:0] op, input wire [15:0] i0, i1,
     alu_slice _i14 (op, i0[14], i1[14], c[13], o[14], c[14]);
     alu_slice _i15 (op, i0[15], i1[15], c[14], o[15], cout);
 endmodule
+
+
+
